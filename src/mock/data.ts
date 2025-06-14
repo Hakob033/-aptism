@@ -22,9 +22,5 @@ export const data = {
       id: 2,
       imageUrl: "/images/main-image.jpg",
     },
-    {
-      id: 3,
-      imageUrl: "/images/main-image.jpg",
-    },
   ],
 };

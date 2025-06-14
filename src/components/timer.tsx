@@ -40,28 +40,28 @@ const Timer = () => {
 
   return (
     <div className="flex flex-col gap-5">
-      <span className="text-5xl text-white font-allegro text-center">
+      <span className="text-5xl text-white leading-[120%] font-allegro text-center">
         Մկրտության հրավիրատոմս
       </span>
       <p className="text-2xl text-center text-white font-armBoloragir">
         Մնացել է
       </p>
       <div className="grid grid-cols-4 gap-4 text-center divide-x ">
-        <div className="flex flex-col text-white items-center">
-          <span className="text-6xl">{timeLeft.days}</span>
-          <span className="">Օր</span>
+        <div className="flex flex-col text-white gap-2 items-center">
+          <span className="text-6xl font-armBoloragir">{timeLeft.days}</span>
+          <span className="font-armBoloragir">Օր</span>
         </div>
-        <div className="flex flex-col text-white items-center">
-          <span className="text-6xl">{timeLeft.hours}</span>
-          <span className="">Ժամ</span>
+        <div className="flex flex-col text-white gap-2 items-center">
+          <span className="text-6xl font-armBoloragir">{timeLeft.hours}</span>
+          <span className="font-armBoloragir">Ժամ</span>
         </div>
-        <div className="flex flex-col text-white items-center">
-          <span className="text-6xl">{timeLeft.minutes}</span>
-          <span className="">Րոպե</span>
+        <div className="flex flex-col gap-2 text-white items-center">
+          <span className="text-6xl font-armBoloragir">{timeLeft.minutes}</span>
+          <span className="font-armBoloragir">Րոպե</span>
         </div>
-        <div className="flex flex-col text-white items-center">
-          <span className="text-6xl">{timeLeft.seconds}</span>
-          <span className="">Վայրկյան</span>
+        <div className="flex flex-col gap-2 text-white items-center">
+          <span className="text-6xl font-armBoloragir">{timeLeft.seconds}</span>
+          <span className="font-armBoloragir">Վայրկյան</span>
         </div>
       </div>
     </div>
