@@ -110,7 +110,7 @@ export default function Home() {
         </h1>
       </div>
       <div className="grid grid-cols-2 gap-4 lg:gap-8 pt-4 sm:pt-6 md:pt-10 lg:pt-12">
-        {data.images.map((item, i) => {
+        {data.images.map((item) => {
           return (
             <Image
               key={item.id}

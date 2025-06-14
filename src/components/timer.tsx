@@ -1,7 +1,6 @@
 "use client";
 
 import { data } from "@/mock/data";
-import Image from "next/image";
 import React, { useState, useEffect } from "react";
 
 const Timer = () => {
