@@ -1,8 +1,19 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "allegro";
+  src: url("../../public/fonts/Allegro.ttf") format("opentype");
+}
+@font-face {
+  font-family: "armBoloragir";
+  src: url("../../public/fonts/ArmBoloragir.ttf") format("opentype");
+}
+
 @theme {
   --color-primary: #1d4ed8; /* Example primary color */
   --color-secondary: #f59e0b; /* Example secondary color */
   --color-background: #f3f4f6; /* Example background color */
   --color-text: #111827; /* Example text color */
+  --font-allegro: "allegro", Arial, sans-serif;
+  --font-armBoloragir: "armBoloragir", Arial, sans-serif;
 }
