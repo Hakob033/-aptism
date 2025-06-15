@@ -10,7 +10,7 @@ export default function Home() {
           {data.invitationText}
         </span>
         <span className="font-armBoloragir text-sm sm:text-xl">
-          Սպասում ենք Ձեզ մեր դստեր
+          Սպասում ենք Ձեզ մեր Երեխաների
         </span>
         <h1 className="font-allegro text-4xl leading-12 -mt-3 text-[#c1880e] sm:text-5xl sm:leading-16 md:text-6xl md:leading-24">
           {data.daughterName}

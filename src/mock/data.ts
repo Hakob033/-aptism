@@ -3,16 +3,16 @@ export const data = {
   mainImage: "/images/main-image.jpg",
   invitationText:
     "Սիրելի հարազատներ և ընկերներ, ցանկանում ենք ձեզ հետ կիսել մեր կյանքի լուսավոր օրը",
-  daughterName: "Լիլիթի",
+  daughterName: "Վահանի և Մարիյի",
   baptismText: "Սուրբ մկրտությանը",
-  baptismDate: "15 Օգոստոսի 2025",
+  baptismDate: "9 Օգոստոսի 2025",
   church: "Խոր Վիրապ եկեղեցի",
   churchTime: "15:00",
   churchImage: "/images/church.webp",
-  restaurant: "Մորենա ռեստորան",
+  restaurant: "Վահագնի հոլ",
   restaurantTime: "18:00",
   restaurantImage: "/images/restaurant.webp",
-  clientName: "Ալեքսանդր և Անահիտ",
+  clientName: "Անդրանիկ և Էլիտա",
   images: [
     {
       id: 1,
