@@ -16,11 +16,11 @@ export const data = {
   images: [
     {
       id: 1,
-      imageUrl: "/images/main-image.jpg",
+      imageUrl: "/images/footer-image-1.jpg",
     },
     {
       id: 2,
-      imageUrl: "/images/main-image.jpg",
+      imageUrl: "/images/footer-image-2.jpg",
     },
   ],
 };

@@ -128,9 +128,9 @@ export default function Home() {
               key={item.id}
               src={item.imageUrl}
               width={500}
-              height={200}
+              height={500}
               alt="image"
-              className={`w-full`}
+              className={`w-full h-[500px]`}
             />
           );
         })}
