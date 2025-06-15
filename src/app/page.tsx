@@ -63,17 +63,22 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col justify-center items-center gap-5 lg:gap-8 px-4 sm:px-6 md:px-10 lg:px-20 py-4 pt-10 sm:py-6 md:py-10 lg:py-12">
+      <div className="flex flex-col justify-center items-center gap-3 lg:gap-8 px-4 sm:px-6 md:px-10 lg:px-20 py-4 pt-10 sm:py-6 md:py-10 lg:py-12">
         <span className="text-2xl text-center font-armBoloragir">
           {data.church}
         </span>
-        <Image
-          src={data.churchImage}
-          alt="church"
-          width={100}
-          height={400}
-          className="w-full rounded-2xl"
-        />
+
+        <div className="relative w-full h-[400px] rounded-2xl overflow-hidden">
+          <Image
+            src={data.churchImage}
+            alt="church"
+            fill
+            className="object-cover"
+            quality={100}
+            priority
+          />
+        </div>
+
         <Link
           target="_blank"
           href="https://yandex.com/maps/-/CHWUrP7-"
@@ -82,25 +87,32 @@ export default function Home() {
           Ինչպես հասնել
         </Link>
       </div>
-      <div className="flex flex-col justify-center items-center gap-5 lg:gap-8 px-4 sm:px-6 md:px-10 lg:px-20 py-4 pt-10 sm:py-6 md:py-10 lg:py-12">
+
+      <div className="flex flex-col justify-center items-center gap-3 lg:gap-8 px-4 sm:px-6 md:px-10 lg:px-20 py-4 pt-10 sm:py-6 md:py-10 lg:py-12">
         <span className="text-2xl text-center font-armBoloragir">
           {data.restaurant}
         </span>
-        <Image
-          src={data.restaurantImage}
-          alt="church"
-          width={100}
-          height={400}
-          className="w-full rounded-2xl"
-        />
+
+        <div className="relative w-full h-[400px] rounded-2xl overflow-hidden">
+          <Image
+            src={data.restaurantImage}
+            alt="church"
+            fill
+            className="object-cover"
+            quality={100}
+            priority
+          />
+        </div>
+
         <Link
           target="_blank"
-          href="https://yandex.com/maps/-/CHWUnEj~"
+          href="https://yandex.com/maps/-/CHWUrP7-"
           className="flex justify-center items-center font-armBoloragir border rounded-2xl px-4 py-2"
         >
           Ինչպես հասնել
         </Link>
       </div>
+
       <div className=" flex flex-col justify-center items-center gap-6 lg:gap-8 px-4 sm:px-6 md:px-10 lg:px-20 py-4 sm:py-6 md:py-10 lg:py-12">
         <span className="text-2xl leading-14 font-armBoloragir font-medium sm:text-3xl md:text-4xl md:leading-10">
           Սիրով՝

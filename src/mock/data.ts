@@ -6,12 +6,12 @@ export const data = {
   daughterName: "Լիլիթի",
   baptismText: "Սուրբ մկրտությանը",
   baptismDate: "15 Օգոստոսի 2025",
-  church: "Սուրբ Աստվածածին եկեղեցի",
+  church: "Խոր Վիրապ եկեղեցի",
   churchTime: "15:00",
-  churchImage: "/images/church.jpg",
-  restaurant: "Արարատ ռեստորան",
+  churchImage: "/images/church.webp",
+  restaurant: "Մորենա ռեստորան",
   restaurantTime: "18:00",
-  restaurantImage: "/images/restaurant.jpeg",
+  restaurantImage: "/images/restaurant.webp",
   clientName: "Ալեքսանդր և Անահիտ",
   images: [
     {
