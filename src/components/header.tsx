@@ -4,7 +4,7 @@ import Timer from "./timer";
 const Header = () => {
   return (
     <div
-      className="min-h-screen bg-fixed bg-contain bg-no-repeat bg-center relative"
+      className="relative w-full min-h-screen bg-center bg-no-repeat bg-contain sm:bg-cover sm:bg-fixed"
       style={{
         backgroundImage: 'url("/images/main-image.jpg")',
       }}
