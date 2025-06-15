@@ -6,16 +6,16 @@ export default function Home() {
   return (
     <div className="">
       <div className="flex flex-col justify-center gap-6 lg:gap-8 items-center px-4 sm:px-6 md:px-10 lg:px-20 py-4 sm:py-6 md:py-10 lg:py-12 ">
-        <span className="font-armBoloragir text-sm sm:text-xl text-center">
+        <span className="font-armBoloragir text-[18px] sm:text-xl text-center">
           {data.invitationText}
         </span>
-        <span className="font-armBoloragir text-sm sm:text-xl">
+        <span className="font-armBoloragir text-[18px] sm:text-xl">
           Սպասում ենք Ձեզ մեր Երեխաների
         </span>
         <h1 className="font-allegro text-4xl leading-12 -mt-3 text-[#c1880e] sm:text-5xl sm:leading-16 md:text-6xl md:leading-24">
           {data.daughterName}
         </h1>
-        <h1 className="font-armBoloragir text-sm font-bold sm:text-xl">
+        <h1 className="font-armBoloragir text-[18px] font-bold sm:text-xl">
           Սուրբ մկրտությանը
         </h1>
         <h1 className="font-allegro text-4xl leading-12 -mt-3 text-[#c1880e] sm:text-5xl sm:leading-16 md:text-6xl">
@@ -36,10 +36,10 @@ export default function Home() {
               className="sm:w-[100px] md:w-[120px]"
             />
             <div className="flex flex-col ml-4 w-[200px] sm:w-[300px]">
-              <span className="text-sm font-armBoloragir sm:text-xl">
+              <span className="text-[18px] font-armBoloragir sm:text-xl">
                 {data.churchTime}
               </span>
-              <span className="text-sm font-armBoloragir sm:text-xl text-nowrap">
+              <span className="text-[18px] font-armBoloragir sm:text-xl text-nowrap">
                 {data.church}
               </span>
             </div>
@@ -53,10 +53,10 @@ export default function Home() {
               className="sm:w-[100px] md:w-[120px]"
             />
             <div className="flex flex-col items-start ml-4 w-[200px] sm:w-[300px]">
-              <span className="text-sm font-armBoloragir sm:text-xl">
+              <span className="text-[18px] font-armBoloragir sm:text-xl">
                 {data.restaurantTime}
               </span>
-              <span className="text-sm font-armBoloragir sm:text-xl text-nowrap">
+              <span className="text-[18px] font-armBoloragir sm:text-xl text-nowrap">
                 {data.restaurant}
               </span>
             </div>
