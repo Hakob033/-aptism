@@ -38,28 +38,28 @@ const Timer = () => {
   }, []);
 
   return (
-    <div className="flex flex-col gap-5">
-      <span className="text-5xl text-white leading-[120%] font-allegro text-center">
+    <div className="flex flex-col gap-5 px-4 sm:px-6 md:px-10 lg:px-20">
+      <span className="text-5xl text-white leading-[140%] font-allegro text-center">
         Մկրտության հրավիրատոմս
       </span>
       <p className="text-2xl text-center text-white font-armBoloragir">
         Մնացել է
       </p>
-      <div className="grid grid-cols-4 gap-4 text-center divide-x ">
-        <div className="flex flex-col text-white gap-2 items-center">
-          <span className="text-6xl font-armBoloragir">{timeLeft.days}</span>
+      <div className="grid grid-cols-4 text-center divide-x ">
+        <div className="flex flex-col text-white gap-2 p-2 items-center">
+          <span className="text-4xl font-armBoloragir">{timeLeft.days}</span>
           <span className="font-armBoloragir">Օր</span>
         </div>
-        <div className="flex flex-col text-white gap-2 items-center">
-          <span className="text-6xl font-armBoloragir">{timeLeft.hours}</span>
+        <div className="flex flex-col text-white gap-2 items-center p-2">
+          <span className="text-4xl font-armBoloragir">{timeLeft.hours}</span>
           <span className="font-armBoloragir">Ժամ</span>
         </div>
-        <div className="flex flex-col gap-2 text-white items-center">
-          <span className="text-6xl font-armBoloragir">{timeLeft.minutes}</span>
+        <div className="flex flex-col gap-2 text-white items-center p-2">
+          <span className="text-4xl font-armBoloragir">{timeLeft.minutes}</span>
           <span className="font-armBoloragir">Րոպե</span>
         </div>
-        <div className="flex flex-col gap-2 text-white items-center">
-          <span className="text-6xl font-armBoloragir">{timeLeft.seconds}</span>
+        <div className="flex flex-col gap-2 text-white items-center p-2">
+          <span className="text-4xl font-armBoloragir">{timeLeft.seconds}</span>
           <span className="font-armBoloragir">Վայրկյան</span>
         </div>
       </div>

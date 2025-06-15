@@ -12,13 +12,13 @@ export default function Home() {
         <span className="font-armBoloragir text-sm sm:text-xl">
           Սպասում ենք Ձեզ մեր դստեր
         </span>
-        <h1 className="font-allegro text-3xl leading-12 -mt-3 text-[#ffdc64] sm:text-5xl sm:leading-16 md:text-6xl md:leading-24">
+        <h1 className="font-allegro text-4xl leading-12 -mt-3 text-[#c1880e] sm:text-5xl sm:leading-16 md:text-6xl md:leading-24">
           {data.daughterName}
         </h1>
         <h1 className="font-armBoloragir text-sm font-bold sm:text-xl">
           Սուրբ մկրտությանը
         </h1>
-        <h1 className="font-allegro text-3xl leading-12 -mt-3 text-[#ffdc64] sm:text-5xl sm:leading-16 md:text-6xl">
+        <h1 className="font-allegro text-4xl leading-12 -mt-3 text-[#c1880e] sm:text-5xl sm:leading-16 md:text-6xl">
           {data.baptismDate}
         </h1>
       </div>
@@ -35,7 +35,7 @@ export default function Home() {
               height={60}
               className="sm:w-[100px] md:w-[120px]"
             />
-            <div className="flex flex-col ml-4 gap-2 sm:gap-3 w-[200px] sm:w-[300px]">
+            <div className="flex flex-col ml-4 w-[200px] sm:w-[300px]">
               <span className="text-sm font-armBoloragir sm:text-xl">
                 {data.churchTime}
               </span>
@@ -52,7 +52,7 @@ export default function Home() {
               height={60}
               className="sm:w-[100px] md:w-[120px]"
             />
-            <div className="flex flex-col items-start ml-4 w-[200px] sm:w-[300px] gap-2 sm:gap-3">
+            <div className="flex flex-col items-start ml-4 w-[200px] sm:w-[300px]">
               <span className="text-sm font-armBoloragir sm:text-xl">
                 {data.restaurantTime}
               </span>
@@ -105,7 +105,7 @@ export default function Home() {
         <span className="text-2xl leading-14 font-armBoloragir font-medium sm:text-3xl md:text-4xl md:leading-10">
           Սիրով՝
         </span>
-        <h1 className="font-allegro text-3xl leading-[160%] text-[#ffdc64] sm:text-5xl md:text-6xl">
+        <h1 className="font-allegro text-4xl leading-[160%] text-[#c1880e] sm:text-5xl md:text-6xl">
           {data.clientName}
         </h1>
       </div>
