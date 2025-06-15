@@ -68,7 +68,7 @@ export default function Home() {
           {data.church}
         </span>
 
-        <div className="relative w-full h-[400px] rounded-2xl overflow-hidden">
+        <div className="relative w-full h-[400px] sm:h-[800px] rounded-2xl overflow-hidden">
           <Image
             src={data.churchImage}
             alt="church"
@@ -93,7 +93,7 @@ export default function Home() {
           {data.restaurant}
         </span>
 
-        <div className="relative w-full h-[400px] rounded-2xl overflow-hidden">
+        <div className="relative w-full h-[400px] sm:h-[800px] rounded-2xl overflow-hidden">
           <Image
             src={data.restaurantImage}
             alt="church"
@@ -127,10 +127,10 @@ export default function Home() {
             <Image
               key={item.id}
               src={item.imageUrl}
-              width={500}
-              height={500}
+              width={200}
+              height={200}
               alt="image"
-              className={`w-full h-[500px]`}
+              className={`w-full h-[200px] sm:h-[500px]`}
             />
           );
         })}

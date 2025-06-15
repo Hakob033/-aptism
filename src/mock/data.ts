@@ -11,16 +11,16 @@ export const data = {
   churchImage: "/images/church.webp",
   restaurant: "Վահագնի հոլ",
   restaurantTime: "18:00",
-  restaurantImage: "/images/restaurant.webp",
+  restaurantImage: "/images/restaurant.jpeg",
   clientName: "Անդրանիկ և Էլիտա",
   images: [
     {
       id: 1,
-      imageUrl: "/images/footer-image-1.jpg",
+      imageUrl: "/images/main-image.jpg",
     },
     {
       id: 2,
-      imageUrl: "/images/footer-image-2.jpg",
+      imageUrl: "/images/footer-image-1.jpg",
     },
   ],
 };

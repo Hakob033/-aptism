@@ -4,9 +4,9 @@ import Timer from "./timer";
 const Header = () => {
   return (
     <div
-      className="relative w-full min-h-screen bg-center bg-no-repeat bg-contain sm:bg-cover sm:bg-fixed"
+      className="relative w-full h-screen bg-center bg-no-repeat bg-cover bg-fixed"
       style={{
-        backgroundImage: 'url("/images/main-image.jpg")',
+        backgroundImage: 'url("/images/footer-image-2.jpg")',
       }}
     >
       <div className="absolute inset-0 bg-black/30 brightness-75 z-0" />
