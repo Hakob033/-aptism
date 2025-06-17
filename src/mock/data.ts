@@ -1,5 +1,5 @@
 export const data = {
-  targetDate: new Date("August 15, 2025 00:00:00").getTime(),
+  targetDate: new Date("August 9, 2025 00:00:00").getTime(),
   mainImage: "/images/main-image.jpg",
   invitationText:
     "Սիրելի հարազատներ և ընկերներ, ցանկանում ենք ձեզ հետ կիսել մեր կյանքի լուսավոր օրը",
